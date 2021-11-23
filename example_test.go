@@ -7,20 +7,20 @@ import (
 )
 
 func ExampleOf() {
-	string1 := new.Of("meaning of life")
-	string2 := new.Of("meaning of life")
-	fmt.Println(string1 != string2)
-	fmt.Println(*string1 == *string2)
+	strptr1 := new.Of("meaning of life")
+	strptr2 := new.Of("meaning of life")
+	fmt.Println(strptr1 != strptr2)
+	fmt.Println(*strptr1 == *strptr2)
 
-	int1 := new.Of(42)
-	int2 := new.Of(42)
-	fmt.Println(int1 != int2)
-	fmt.Println(*int1 == *int2)
+	intp1 := new.Of(42)
+	intp2 := new.Of(42)
+	fmt.Println(intp1 != intp2)
+	fmt.Println(*intp1 == *intp2)
 
 	type MyFloat float64
-	f := new.Of[MyFloat](42)
-	fmt.Println(f != nil)
-	fmt.Println(*f == 42)
+	fp := new.Of[MyFloat](42)
+	fmt.Println(fp != nil)
+	fmt.Println(*fp == 42)
 
 	// Output:
 	// true

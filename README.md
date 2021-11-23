@@ -2,18 +2,18 @@
 A helper function to create a pointer to a new object in Go 1.18+.
 
 ```
-string1 := new.Of("meaning of life")
-string2 := new.Of("meaning of life")
-string1 != string2 // true
-*string1 == *string2 // true
+strptr1 := new.Of("meaning of life")
+strptr2 := new.Of("meaning of life")
+strptr1 != strptr2 // true
+*strptr1 == *strptr2 // true
 
-int1 := new.Of(42)
-int2 := new.Of(42)
-int1 != int2 // true
-*int1 == *int2 // true
+intp1 := new.Of(42)
+intp2 := new.Of(42)
+intp1 != intp2 // true
+*intp1 == *intp2 // true
 
 type MyFloat float64
-f := new.Of[MyFloat](42)
-f != nil // true
-*f == 42 // true
+fp := new.Of[MyFloat](42)
+fp != nil // true
+*fp == 42 // true
 ```
