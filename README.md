@@ -49,6 +49,6 @@ In Go, you cannot return a pointer to an expression, although you can return a p
 
 ### Should I use this package?
 
-Ideally, `newof` will become a built-in function in a future version of Go. Until then, [this is fine](http://gunshowcomic.com/648).
+Ideally, `newof` will become [a built-in function in a future version of Go](https://github.com/golang/go/issues/45624#issuecomment-927391928). Until then, [this is fine](http://gunshowcomic.com/648).
 
 [![fine](https://user-images.githubusercontent.com/222245/142966985-627d6095-313f-475f-ba98-fa37ef892cbe.png)](https://github.com/carlmjohnson/shitpic/)
