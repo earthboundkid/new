@@ -31,7 +31,7 @@ $ gotip get github.com/carlmjohnson/new
 
 ## FAQs
 
-### Oh god
+### [I love and hate this at the same time...](https://reddit.com/r/golang/comments/r064xk/_/hlr2bdi/?context=1)
 
 I mean, honestly, this isn't even my worst idea for generics yet.
 
